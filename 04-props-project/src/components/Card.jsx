@@ -8,8 +8,7 @@ const Card = (props) => {
           <div className="top">
           <img src={props.brandLogo} alt="Logo" />
           <button>Save <Bookmark size={12}/></button>
-
-        </div>
+          </div>
         <div className="center">
           <h2>{props.company} <span>{props.datePosted}</span></h2>
           <h2>{props.post}</h2>
