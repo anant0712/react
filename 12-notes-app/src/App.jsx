@@ -1,5 +1,4 @@
 import  { useState } from 'react'
-import { X } from 'lucide-react';
 
 const App = () => {
   
@@ -51,8 +50,7 @@ const App = () => {
           onChange = {(e)=>{
             setDetail(e.target.value)
           }}
-          className='px-5 py-2 h-32 w-full flex item-start border-2 border-gray-300 rounded text-lg'
-          />
+          className='px-5 py-2 h-32 w-full flex item-start border-2 border-gray-300 rounded text-lg'/>
           <button className='px-5 py-2 active:bg-black w-full border-2 rounded text-gray-600 text-lg font-bold bg-white '>Add Note</button>
         </form>
         <div className='lg:w-1/2 lg:border-l-2 p-10'>
