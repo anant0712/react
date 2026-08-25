@@ -33,7 +33,7 @@ const App = () => {
           {printUserData}
         </div>
         <div className='flex justify-center gap-3 mt-3'>
-          <button className='py-2 px-4 rounded-xl bg-amber-400 text-sm cursor-pointer active:scale-95 text-black font-semibold'
+          <button style={{disabled: index === 1,opacity: index === 1 ? 0.5 : 1}} className='py-2 px-4 rounded-xl bg-amber-400 text-sm cursor-pointer active:scale-95 text-black font-semibold'
             onClick={() => {
               if (index > 1) {
                 // console.log("Prev button clicked")
