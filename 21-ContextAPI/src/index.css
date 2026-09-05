@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color:white;
+}
+
+/* .nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #048457;
+} */
+
+.light{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #048457;
+}
+
+.dark{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: darkslategray;
+}
+
+.nav2{
+  display: flex;
+  gap:30px;
+  
+}
+
+.nav2 .btn{
+  background-color: #133636;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
