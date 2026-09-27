@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <ThemeProvider value={{ themeMode, darkTheme, lightTheme }}>
-      <div className="flex flex-wrap min-h-screen items-center bg-gradient-to-br from gray-400 accordion to-blue-500 via-cyan-900 dark:from-gray-900 dark:via-gray-500 dark:to-blue-900">
+      <div className="flex flex-wrap min-h-screen items-center bg-linear-to-br from gray-400 accordion to-blue-500 via-cyan-900 dark:from-gray-900 dark:via-gray-500 dark:to-blue-900">
         <div className="w-full">
           <div className="w-full max-w-sm mx-auto flex justify-end mb-4">
             <ThemeBtn />           
